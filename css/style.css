@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  background-color: #505bfd;
+   min-height: 30px;
+  display: flex;
+  justify-content: space-around;
+  color:#fff;
+
+}
+
+.container h2{
+  padding-top: 25px;
+    align-items: left;
+    float: left;
+  margin-top: 5px;
+  font-size: 36px;
+  color:#fff;
+}
+h2{
+    float: left;
+}
+.container ul
+{ float: left;
+ align-self: flex-end;
+    margin-bottom: 10px;
+    display: block;}
+    
+    
+ul li {
+    display:inline;
+    margin : 20px;
+    color:#fff;
+    text-decoration : none;
+    font-size : 12px;
+    text-align : center;
+    ;
+}
+.container a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 25px;
+    text-align: center;
+    color:#fff;
+
+    }
+    main{
+        
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        justify-content: space-around;
+        font-size : 20px;
+
+    }
+h1{ 
+    
+    padding: 25px;
+    background-color: rgb(205, 224, 235);
+    height : 200px;
+text-align: center;}
+    
+#newsletter-section{
+    display: flex;
+    background-color:#505bfd;
+    }
+   h3{
+       float: left;
+       color:#fff;
+   }
+form{
+    display:inline-block;
+    justify-content: space-around;
+    margin-right: 0px;
+    }
+#subscribe-btn{
+    background-color: red;}
+.card{
+    display:inline-block;
+    align-items: justify;
+    justify-content: space-around;
+    height: auto;
+  width: auto;
+  margin: 70px;
+  border:black;
+  text-align: center;
+  
+  }
+  
